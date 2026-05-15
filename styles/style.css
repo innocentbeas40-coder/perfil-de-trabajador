@@ -1,4 +1,5 @@
 
+
 /* fondo */
 body{
 
@@ -11,8 +12,199 @@ body{
     /*  márgenes automáticos */
     margin: 0;
 
-    /* Centrar */
-    display: flex;
+    /* Centrado horizontal */
+    justify-content: center;
+
+    /* Centrado vertical */
+    align-items: center;
+
+    /* separacion del marco de la pantalla */
+    min-height: 100vh;
+}
+
+
+.marco{
+
+    /* Fondo */
+    background-color: white;
+
+    /* Ancho */
+    width: 500px;
+
+    /* tamaño de cuadro blanco  */
+    padding: 40px;
+
+    /* Bordes redondeados */
+    border-radius: 12px;
+
+    /* Sombra   */
+    box-shadow: 0px 50px 100px rgba(0,0,0,0.1);
+
+    /* Centrar texto */
+    text-align: center;
+}
+
+
+
+
+
+
+/* NOMBRE */
+
+
+.nombre{
+
+    /* Tamaño */
+    font-size: 42px;
+
+    /* Color */
+    color: #000;
+
+    /* Espacio entre borde de cuadroy nm */
+    margin-top: 20px;
+
+    /* Espacio entre nombre y descripción */
+    margin-bottom: 10px;
+}
+
+
+
+/* DESCRIPCIÓN */
+
+
+.descripcion{
+
+    /* Color gris */
+    color: #555;
+
+    /* Tamaño */
+    font-size: 17px;
+
+    /* espacio entre líneas */
+    line-height: 1.5;
+
+    /* Espacio entre descripcion y temas  */
+    margin-bottom: 30px;
+}
+
+
+
+/* TEMAS */
+
+
+.temas{
+
+    /* Alinear izquierda */
+    text-align: left;
+
+    /* Espacio entre temas y boton */
+    margin-bottom: 30px;
+}
+
+.titulo-temas{
+
+    /* Tamaño */
+    font-size: 28px;
+
+    /* Color */
+    color: #111827;
+}
+
+.lista{
+
+    /* Espaciado izquierda */
+    padding-left: 20px;
+
+    /* Color */
+    color: #555;
+
+    /* Tamaño */
+    font-size: 18px;
+}
+
+
+
+/* BOTÓN */
+
+
+.boton{
+
+    /* Fondo */
+    background-color: #111827;
+
+    /* Texto del boton */
+    color: white;
+
+    /* sin borde */
+    border: none;
+
+    /* tamaño del boton */
+    padding: 15px 40px;
+
+    /* Bordes redondeados */
+    border-radius: 8px;
+
+    /* Tamaño texto */
+    font-size: 18px;
+  
+   
+}
+
+
+/* Hover del botón */
+.boton:hover{
+
+    /* Color al pasar mouse */
+    background-color: #1f2937;
+}
+
+
+
+/* REDES SOCIALES */
+
+
+.redes{
+    
+    /* Espacio entre boton y redes */
+    margin-top: 40px;
+
+    text-align: center;
+
+}
+
+
+/* texto de sigueme en redes  */
+
+.texto-redes{
+
+    /* Color */
+    color: #000000;
+
+    /* Tamaño */
+    font-size: 18px;
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* fondo */
+body{
+
+    /* Color de fondo */
+    background-color: #bcb5b5;
+
+    /* Tipo de letra */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*  márgenes automáticos */
+    margin: 0;
+
+   
 
     /* Centrado horizontal */
     justify-content: center;
@@ -169,7 +361,7 @@ body{
     
     /* Espacio entre boton y redes */
     margin-top: 40px;
-
+    
     text-align: center;
 
 }
@@ -180,7 +372,7 @@ body{
 .texto-redes{
 
     /* Color */
-    color: #000000;
+    color: #666;
 
     /* Tamaño */
     font-size: 18px;
