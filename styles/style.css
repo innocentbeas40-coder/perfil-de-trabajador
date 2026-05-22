@@ -1,35 +1,12 @@
 
 
-/* fondo */
-body{
 
-
-    
-
-    /* Color de fondo */
-    background-color: #bcb5b5;
-
-    /* Tipo de letra */
-    font-family: Arial, Helvetica, sans-serif;
-
-    
-    margin: 0;
-
-    /* Centrado horizontal */
-    justify-content: center;
-
-    /* Centrado vertical */
-    align-items: center;
-
-    /* separacion del marco de la pantalla */
-    min-height: 100vh;
-}
 
 
 .marco{
+ margin-top: 5%;
+  margin-left: 34%;
 
-   
-    margin-left: 32%;
 
     /* Ancho */
     width: 500px;
@@ -199,7 +176,7 @@ body{
 body{
 
     /* Color de fondo */
-    background-color: #bcb5b5;
+    background-color: #F3F3F3;
 
     /* Tipo de letra */
     font-family: Arial, Helvetica, sans-serif;
@@ -223,7 +200,7 @@ body{
 .marco{
 
     /* Fondo */
-    background-color: white;
+    background-color: #FEFFFF;
 
     /* Ancho */
     width: 500px;
@@ -310,7 +287,7 @@ body{
 .lista{
 
     /* Espaciado izquierda */
-    padding-left: 20px;
+    padding-left: 40px;
 
     /* Color */
     color: #555;
@@ -383,6 +360,63 @@ body{
     text-align: center;
 }
 
+.links-redes{
+
+   margin:auto;
+
+    /* Color */
+    color: #9D9F9F;
+
+    /* Tamaño */
+    font-size: 18px;
+
+    
+
+}
+
+.titulo{
+
+    margin: 0;
+
+    /* Tamaño */
+    font-size: 36px;
+
+    /* Color */
+    color: #F1F6FA;
+
+    /* Espacio entre titulo y marco */
+    margin-bottom: 30px;
+}
+
+
+.contenedor{
+    
+padding-top: 1%;
+    padding-bottom: 1%;
+
+    margin-bottom: 5%;
+
+    /* Fondo */
+    background-color: #343434;
+
+    margin: 0;
+
+    /* Centrar texto */
+    text-align: center;
+
+    
+}
+
+.imagen{
+
+    /* Tamaño de la imagen */
+    width: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+     border: 8px solid #000000;
+     border-radius: 60%;
+   
+}
 
 
 
