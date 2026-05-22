@@ -3,13 +3,16 @@
 /* fondo */
 body{
 
+
+    
+
     /* Color de fondo */
     background-color: #bcb5b5;
 
     /* Tipo de letra */
     font-family: Arial, Helvetica, sans-serif;
 
-    /*  márgenes automáticos */
+    
     margin: 0;
 
     /* Centrado horizontal */
@@ -25,8 +28,8 @@ body{
 
 .marco{
 
-    /* Fondo */
-    background-color: white;
+   
+    margin-left: 34%;
 
     /* Ancho */
     width: 500px;
@@ -231,7 +234,7 @@ body{
     /* Bordes redondeados */
     border-radius: 12px;
 
-    /* Sombra izq,abajo,derecha  */
+    /* Sombra   */
     box-shadow: 0px 50px 100px rgba(0,0,0,0.1);
 
     /* Centrar texto */
